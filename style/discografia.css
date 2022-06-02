@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+#discotitle{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+#disco1, #disco2, #disco3{
+    float:left;
+    padding:10px;
+    text-align: center;
+}
+
+.discografia{
+    margin-left:250px;
+    margin-right: 250px;
+
+}
+
+#disco1, #disco3{
+    width:30%
+}
+#disco2{
+    width:40%;
+}
+
+.discografia:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img{
+    width:200px;
+}
+
+@media (max-width: 600px){
+    .discografia{
+        margin:0px;
+    }
+    #disco1, #disco2, #disco3{
+        width:100%;
+        margin: auto;
+    }
+}

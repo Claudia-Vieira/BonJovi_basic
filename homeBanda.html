@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cláudia Vieira">
+    <meta name="description" content="Bon Jovi - Relembre a sua história, conheça as próximas tours e ouça os seus discos mais conhecidos ">
+    <link rel="stylesheet" href="style/homeBand.css">
+    <link rel="stylesheet" href="style/discografia.css">
+    <link rel="stylesheet" href="style/tours.css">
+    <link rel="stylesheet" href="style/contactos.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <script src="https://kit.fontawesome.com/fc4a078ab8.js" crossorigin="anonymous"></script>
+    <title>Bon Jovi</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li class="active"><a href="#" title="Homepage">Home</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" title="A banda" class="dropbtn">A Banda <i class="fas fa-caret-down"></i></a>
+                        <div class="dropcontent">
+                            <a href="#" title="Quem somos">Quem somos</a>
+                            <a href="#" title="Discografia">Discografia</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#" title="tours">Tours</a></li>
+                <li><a href="#" title="Contactos">Contactos</a></li>
+                <li> <a href="#" title="" id="search"><i class="fas fa-search"></i></a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1>Bon Jovi</h1>
+            <hr>
+            <p>Bon Jovi é uma banda americana de rock, formada em 1983, em Sayreville, Nova Jersey. A formação atual da banda consiste no cantor Jon Bon Jovi, no tecladista David Bryan, no baterista Tico Torres, no guitarrista Phil X e no baixista Hugh McDonald.
+                A banda mantém algumas características do estilo hard rock dos anos 1980 até hoje, mas assimilou influências dos variados estilos surgidos no rock e heavy metal desde o seu álbum de estreia, em 1984. </p>
+            <hr>
+        </header>
+
+        <div class="conteúdo">
+
+            <section class="discografia">
+                <h2 id="discotitle">Discografia</h2>
+                <article id="disco1">
+                    <h3>Cross Road (1994)</h3>
+                    <a href="https://pt.wikipedia.org/wiki/Discografia_de_Bon_Jovi" target="_blank" title="discografia bon jovi"><img src="img/cross-road.jpg" alt="Disco Cross Road"></a>
+                </article>
+                <article id="disco2">
+                    <h3>This Left Feels Right (2003)</h3>
+                    <a href="https://pt.wikipedia.org/wiki/Discografia_de_Bon_Jovi" target="_blank" title="discografia bon jovi"><img src="img/this-left-feels-right.jpg" alt="Disco This Left Feels Right"></a>
+                </article>
+                <article id="disco3">
+                    <h3>Greatest Hits (2010)</h3>
+                    <a href="https://pt.wikipedia.org/wiki/Discografia_de_Bon_Jovi" target="_blank" title="discografia bon jovi"><img src="img/Greatest-Hits.jpg" alt="Disco Greatest Hits"></a>
+                </article>
+            </section>
+
+
+            <section class="tours">
+            <img src="img/wallpaper.jpg" alt="Bon Jovi Wallpaper" id="wallpaper">
+            <h3 class="titulos">Tours</h3>
+            <table>
+                <tr>
+                    <th colspan="3">Próximas Datas</th>
+                </tr>
+                <tr>
+                    <td>1. Abril</td>
+                    <td> Omaha, NE </td>
+                    <td><button class="comprar">Comprar Bilhetes</button></td>
+                </tr>
+                <tr>
+                    <td>3. Abril</td>
+                    <td> St Paul, MN </td>
+                    <td><button class="comprar">Comprar Bilhetes</button></td>
+                </tr>
+                <tr>
+                    <td>5. Abril</td>
+                    <td> Milwaukee, WI </td>
+                    <td><button class="comprar">Comprar Bilhetes</button></td>
+                </tr>
+                <tr>
+                    <td>8. Abril</td>
+                    <td> Charlotte, NC </td>
+                    <td><button class="comprar">Comprar Bilhetes</button></td>
+                </tr>
+                <tr>
+                    <td>9. Abril</td>
+                    <td> Raleight, NC </td>
+                    <td><button class="comprar">Comprar Bilhetes</button></td>
+                </tr>
+            </table>
+            </section>
+
+
+            <section class="contactos">
+                <h3 class="titulos"> Contactos</h3>
+                <div class="informação">
+                    <p><i class="fas fa-location-arrow"></i>ashdkabdahsdiohasdl, diash</p>
+                    <p><i class="fas fa-phone"></i>+00 00000000000</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:customerservice@bonjovi.com" id="emailto" title="contacto via email">customerservice@bonjovi.com</a> </p>
+                </div>
+                <div class="form">
+                    <form>
+                        Nome: <input type="text" name="nome" placeholder="Nome" id="nome">
+                        <br>
+                        Email: <input type="email" name="email" placeholder="Email" id="email">
+                        <br>
+                        <p>Mensagem:</p>
+                        <br>
+                        <textarea cols = 50 rows = 6 name = ”mensagem” placeholder="Mensagem" id="mensagem"> </textarea>
+                        <br>
+                        <input type="submit" name="botao submeter" value="Enviar" id="enviar">
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <p> <a href="#" title="instagram"><i class="fa fa-instagram"></i></a> <a href="#" title="facebook"><i class="fa fa-facebook"></i></a> <a href="#" title="facebook"> <i class="fa fa-twitter"></i></a></p>
+            <p>Powered by Cláudia Vieira</p>
+        </footer>
+
+
+    </div>  
+</body>
+</html>

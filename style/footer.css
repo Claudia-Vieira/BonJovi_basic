@@ -1,0 +1,13 @@
+footer{
+    background-color: #EBECF0;
+    height:200px;
+    color:#747474;
+    text-align: center;
+    padding-top:50px;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:#747474;
+}
